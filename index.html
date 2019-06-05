@@ -1,0 +1,21 @@
+---
+layout: layout.liquid
+---
+{% for container in collections.containers %}
+	<div class="container">
+		<div class="container__logo">
+			<img class="container__img" src="{{container.data.containerLogo}}"/>
+		</div>
+		<div class="container__content">
+			<h3 class="container__title"> {{container.data.containerTitle}}</h3>
+			<p class="container__description">
+				{{ container.data.containerDescription}}
+			</p>
+		</div>
+		<div class="container__link">
+			<a href="{{container.data.containerLink}}">
+				<img src="icons/chevron.svg" />
+			</a>
+		</div>
+	</div>
+{% endfor %}

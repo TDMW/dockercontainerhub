@@ -1,0 +1,14 @@
+{
+  "name": "docker-container-hub",
+  "version": "0.0.1",
+  "description": "Docker Container Hub page built with Eleventy",
+  "scripts": {
+    "build": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.3"
+  }
+}

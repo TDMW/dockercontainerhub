@@ -1,0 +1,3 @@
+# Ignore _site folder on Git
+_site/
+node_modules
